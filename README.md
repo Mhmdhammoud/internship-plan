@@ -2,26 +2,26 @@
 
 ## Version Control System [![Git](https://img.shields.io/badge/Git-20.0.0-green)](https://git-scm.com/)
 
-## Git & GitHub
+## [Git & GitHub](/git.MD)
 
-[Read more](/git.MD)
-
-- [ ] What is Git
-- [ ] Why Git
+- [x] What is Git
+- [x] Why Git
 - [ ] How to install Git
 - [ ] Git Commands
-- [ ] What is GitHub
-- [ ] How to create a GitHub account
+- [x] What is GitHub
+- [x] How to create a GitHub account
 - [ ] Github main components
-  - [ ] Repository
-  - [ ] Branch
-  - [ ] Pull Request
-  - [ ] Merge
-  - [ ] Fork
-  - [ ] Clone
-  - [ ] Commit
-  - [ ] Push
+
+  - [x] Repository (Repo)
+  - [x] Branch
+  - [x] Pull Request (PR)
+  - [x] Merge
+  - [x] Commit
+  - [x] Clone
   - [ ] Pull
+  - [ ] Push
+  - [ ] Fork
+
 - [ ] How to create a repository
 - [ ] How to clone a repository
 - [ ] How to fork a repository
