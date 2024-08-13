@@ -6,11 +6,11 @@
 
 - [x] What is Git
 - [x] Why Git
-- [ ] How to install Git
+- [x] How to install Git
 - [ ] Git Commands
 - [x] What is GitHub
 - [x] How to create a GitHub account
-- [ ] Github main components
+- [x] Github main components
 
   - [x] Repository (Repo)
   - [x] Branch
@@ -18,16 +18,16 @@
   - [x] Merge
   - [x] Commit
   - [x] Clone
-  - [ ] Pull
-  - [ ] Push
-  - [ ] Fork
+  - [x] Pull
+  - [x] Push
+  - [x] Fork
 
-- [ ] How to create a repository
-- [ ] How to clone a repository
-- [ ] How to fork a repository
+- [x] How to create a repository
+- [x] How to clone a repository
+- [x] How to fork a repository
 - [ ] How to create a branch
-- [ ] How to create a pull request
-- [ ] How to merge a pull request
+- [x] How to create a pull request
+- [x] How to merge a pull request
 - [ ] How to pull and push changes
 
 ## NodeJs [![NodeJs](https://img.shields.io/badge/NodeJs-20.0.0-green)](https://nodejs.org/en/)
