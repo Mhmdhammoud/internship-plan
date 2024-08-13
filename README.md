@@ -4,6 +4,8 @@
 
 ## Git & GitHub
 
+[Read more](/git.MD)
+
 - [ ] What is Git
 - [ ] Why Git
 - [ ] How to install Git
