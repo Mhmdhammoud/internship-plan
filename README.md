@@ -25,10 +25,10 @@
 - [x] How to create a repository
 - [x] How to clone a repository
 - [x] How to fork a repository
-- [ ] How to create a branch
+- [ ] How to create a branch `git checkout -b branch-name`
 - [x] How to create a pull request
 - [x] How to merge a pull request
-- [ ] How to pull and push changes
+- [ ] How to pull and push changes `git pull origin <branch_name>` `git push <branch_name>`
 
 ## NodeJs [![NodeJs](https://img.shields.io/badge/NodeJs-20.0.0-green)](https://nodejs.org/en/)
 
