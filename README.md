@@ -32,26 +32,28 @@
 
 ## NodeJs [![NodeJs](https://img.shields.io/badge/NodeJs-20.0.0-green)](https://nodejs.org/en/)
 
-[Read More]()
+[Read More](/nodeJs.md)
 
-- [ ] What is NodeJs
-- [ ] Why NodeJs
-- [ ] How to install NodeJs
+- [x] What is NodeJs
+- [x] Why NodeJs
+- [x] How to install NodeJs
 - [ ] NodeJs Modules
 
-## NPM
+## NPM [![NPM](https://img.shields.io/badge/NPM-20.0.0-green)](https://www.npmjs.com/)
 
-- [ ] What is NPM
-- [ ] Why NPM
-- [ ] How to install NPM
-- [ ] NPM Commands
+[Read More](/npm.md)
+
+- [x] What is NPM
+- [x] Why NPM
+- [x] How to install NPM
+- [x] NPM Commands
 
 ## Package json
 
-- [ ] What is package json
-- [ ] Why package json
-- [ ] How to create package json
-- [ ] package json base properties
+- [x] What is package json
+- [x] Why package json
+- [x] How to create package json `npm init`
+- [x] package json base properties
 
 ## REST API
 
