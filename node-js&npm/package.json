@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "This is a description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhmdhammoud/internship-plan.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Npm",
+    "git",
+    "github",
+    "CLI"
+  ],
+  "author": "Mhmdh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mhmdhammoud/internship-plan/issues"
+  },
+  "homepage": "https://github.com/Mhmdhammoud/internship-plan#readme",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
