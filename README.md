@@ -37,7 +37,7 @@
 - [x] What is NodeJs
 - [x] Why NodeJs
 - [x] How to install NodeJs
-- [ ] NodeJs Modules
+- [x] NodeJs Modules
 
 ## NPM [![NPM](https://img.shields.io/badge/NPM-20.0.0-green)](https://www.npmjs.com/)
 
@@ -54,6 +54,47 @@
 - [x] Why package json
 - [x] How to create package json `npm init`
 - [x] package json base properties
+
+## Javascript ES5 & ES6
+
+- [x] Variables
+  - [x] Var
+  - [x] Let
+  - [x] Const
+  - [x] Scope
+- [x] Data Types
+  - [x] String
+  - [x] Number
+  - [x] Boolean
+  - [x] Array
+  - [x] Object
+  - [x] Null
+  - [x] Undefined
+- [x] Functions
+
+  - [x] Arrow Functions
+  - [x] Callback Functions
+  - [x] Anonymous Functions
+  - [x] High Order Functions (map, filter, reduce)
+
+- [ ] NodeJs Base Modules (fs, http, path, os, etc)
+- [ ] Template Literals
+- [x] Destructuring
+- [x] Spread Operator
+- [x] Rest Operator
+- [x] NodeJs Event Loop
+- [ ] Classes
+  - [ ] Methods vs Functions
+  - [ ] Inheritance
+  - [ ] Encapsulation
+  - [ ] `this` keyword
+  - [ ] `static` keyword
+  - [ ] `super` keyword
+  - [ ] `public private protected` keywords
+- [ ] Promises
+- [ ] Callbacks
+- [ ] Async/Await
+- [ ] Error Handling
 
 ## REST API
 

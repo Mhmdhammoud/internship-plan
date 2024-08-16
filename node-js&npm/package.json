@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "functions": "node functions.js",
+    "variables": "node variables.js",
+    "dataTypes": "node dataTypes.js"
   },
   "repository": {
     "type": "git",
