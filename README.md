@@ -77,22 +77,22 @@
   - [x] Anonymous Functions
   - [x] High Order Functions (map, filter, reduce)
 
-- [ ] NodeJs Base Modules (fs, http, path, os, etc)
-- [ ] Template Literals
+- [x] NodeJs Base Modules (fs, http, path, os, etc)
+- [x] Template Literals
 - [x] Destructuring
 - [x] Spread Operator
 - [x] Rest Operator
 - [x] NodeJs Event Loop
 - [ ] Classes
-  - [ ] Methods vs Functions
-  - [ ] Inheritance
-  - [ ] Encapsulation
-  - [ ] `this` keyword
-  - [ ] `static` keyword
-  - [ ] `super` keyword
+  - [x] Methods vs Functions
+  - [x] Inheritance
+  - [x] Encapsulation
+  - [x] `this` keyword
+  - [x] `static` keyword
+  - [x] `super` keyword
   - [ ] `public private protected` keywords
+- [x] Callbacks
 - [ ] Promises
-- [ ] Callbacks
 - [ ] Async/Await
 - [ ] Error Handling
 

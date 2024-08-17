@@ -8,7 +8,9 @@
     "start": "node index.js",
     "functions": "node functions.js",
     "variables": "node variables.js",
-    "dataTypes": "node dataTypes.js"
+    "dataTypes": "node dataTypes.js",
+    "modules": "node modules.js",
+    "oop": "node oop.js"
   },
   "repository": {
     "type": "git",
