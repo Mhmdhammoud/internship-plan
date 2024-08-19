@@ -94,7 +94,7 @@
 - [x] Callbacks
 - [ ] Promises
 - [ ] Async/Await
-- [ ] Error Handling
+- [x] Error Handling
 
 ## REST API
 
