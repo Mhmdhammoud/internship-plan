@@ -10,8 +10,7 @@
     "variables": "node variables.js",
     "dataTypes": "node dataTypes.js",
     "modules": "node modules.js",
-    "oop": "node oop.js",
-    "abed": "node abed-solution/car.solution.js"
+    "oop": "node oop.js"
   },
   "repository": {
     "type": "git",
