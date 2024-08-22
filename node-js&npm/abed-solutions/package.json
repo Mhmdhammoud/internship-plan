@@ -1,0 +1,13 @@
+{
+  "name": "abed-solutions",
+  "version": "1.0.0",
+  "main": "car.solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node car.solution.js"
+  },
+  "keywords": [],
+  "author": "Abed",
+  "license": "ISC",
+  "description": ""
+}
