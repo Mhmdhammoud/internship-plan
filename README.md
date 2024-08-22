@@ -98,19 +98,19 @@
 
 ## REST API
 
-- [ ] What is REST API
-- [ ] Why REST API
-- [ ] REST API Methods
-- [ ] How to create REST API
+- [x] What is REST API
+- [x] Why REST API
+- [x] REST API Methods
+- [x] How to create REST API
 
 ## Express
 
-- [ ] What is Express
-- [ ] Why Express
-- [ ] How to install Express
-- [ ] Express Methods
-- [ ] Express Routers
-- [ ] Express Middleware
+- [x] What is Express
+- [x] Why Express
+- [x] How to install Express
+- [x] Express Methods
+- [x] Express Routers
+- [x] Express Middleware
 
 ## MongoDB & Mongoose
 
