@@ -10,7 +10,8 @@
     "variables": "node variables.js",
     "dataTypes": "node dataTypes.js",
     "modules": "node modules.js",
-    "oop": "node oop.js"
+    "oop": "node oop.js",
+    "Haitham": "node Haitham-solution/CarSolution.js"
   },
   "repository": {
     "type": "git",
