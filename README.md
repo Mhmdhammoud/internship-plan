@@ -92,8 +92,8 @@
   - [x] `super` keyword
   - [ ] `public private protected` keywords
 - [x] Callbacks
-- [ ] Promises
-- [ ] Async/Await
+- [x] Promises
+- [x] Async/Await
 - [x] Error Handling
 
 ## REST API
