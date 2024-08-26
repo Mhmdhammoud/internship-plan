@@ -114,14 +114,14 @@
 
 ## MongoDB & Mongoose
 
-- [ ] What is MongoDB
-- [ ] Why MongoDB
-- [ ] How to install MongoDB
-- [ ] What is Mongoose
-- [ ] Why Mongoose
-- [ ] How to install Mongoose
-- [ ] Mongoose Schema
-- [ ] Mongoose Methods
+- [x] What is MongoDB
+- [x] Why MongoDB
+- [x] How to install MongoDB
+- [x] What is Mongoose
+- [x] Why Mongoose
+- [x] How to install Mongoose
+- [x] Mongoose Schema
+- [x] Mongoose Methods
 
 ## Authentication
 
