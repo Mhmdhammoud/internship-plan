@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const connectDb = require('./utils/connectDb');
 const courseRoutes = require('./routes/course.routes');
+const usersRoutes = require('./routes/user.routes');
 dotenv.config();
 
 const app = express();
@@ -11,6 +12,7 @@ const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use('/courses', courseRoutes);
+app.use('/users', usersRoutes);
 
 connectDb().then(() => {
   console.log('DB connected');

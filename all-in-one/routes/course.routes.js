@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const createCourse = require('../controllers/createCourse');
-const getAllCourses = require('../controllers/getAllCourses');
-const getSingleCourse = require('../controllers/getCourse');
-const updateCourse = require('../controllers/updateCourse');
-const deleteCourse = require('../controllers/deleteCourse');
+const createCourse = require('../controllers/courses/createCourse');
+const getAllCourses = require('../controllers/courses/getAllCourses');
+const getSingleCourse = require('../controllers/courses/getCourse');
+const updateCourse = require('../controllers/courses/updateCourse');
+const deleteCourse = require('../controllers/courses/deleteCourse');
 /*
  * CRUD operations
  * Create a course

@@ -1,10 +1,17 @@
-const CourseModel = require('../schemas/course.schema');
+const CourseModel = require('../../schemas/course.schema');
+const mongoose = require('mongoose');
 module.exports = async (req, res) => {
   try {
     if (!req.query.id) {
       return res.status(400).json({
         message: 'Bad Request',
         message: 'id is required',
+      });
+    }
+    if (!mongoose.isValidObjectId(req.query.id)) {
+      return res.status(400).json({
+        message: 'Bad Request',
+        message: 'id is not valid',
       });
     }
     const course = await CourseModel.findById(req.query.id);

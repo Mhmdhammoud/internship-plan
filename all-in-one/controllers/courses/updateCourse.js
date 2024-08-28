@@ -1,4 +1,4 @@
-const CourseModel = require('../schemas//course.schema');
+const CourseModel = require('../../schemas/course.schema');
 module.exports = async (req, res) => {
   try {
     if (!req.query.id) {
