@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-
+const majorModel = require('./major.schema');
+const courseModel = require('./course.schema');
 const userSchema = new mongoose.Schema(
   {
     fname: {
@@ -32,12 +33,21 @@ const userSchema = new mongoose.Schema(
       required: [true, 'Phone number is required'],
       trim: true,
     },
+    major: {
+      type: mongoose.ObjectId,
+      ref: majorModel,
+      required: [true, 'Major is required'],
+    },
     role: {
       type: String,
       required: [true, 'Role is required'],
       trim: true,
       uppercase: true,
       enum: ['ADMIN', 'STUDENT'],
+    },
+    courses: {
+      type: [mongoose.ObjectId],
+      ref: courseModel,
     },
   },
   {

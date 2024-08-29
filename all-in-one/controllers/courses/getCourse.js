@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
         message: 'id is not valid',
       });
     }
-    const course = await CourseModel.findById(req.query.id);
+    const course = await CourseModel.findById(req.query.id).populate('major');
     return res.status(200).json({
       message: 'Course',
       data: course,

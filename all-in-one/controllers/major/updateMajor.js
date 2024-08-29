@@ -1,4 +1,4 @@
-const UserModel = require('../../schemas/user.schema');
+const MajorModel = require('../../schemas/major.schema');
 module.exports = async (req, res) => {
   try {
     if (!req.query.id) {
@@ -7,21 +7,15 @@ module.exports = async (req, res) => {
         error: 'id is required',
       });
     }
-    const isUserFound = await UserModel.findById(req.query.id)
-      .populate('major', '-createdAt -updatedAt')
-      .populate('courses');
-
-    if (!isUserFound) {
+    const isMajorFound = await MajorModel.findById(req.query.id);
+    if (!isMajorFound) {
       return res.status(404).json({
         message: 'Not Found',
-        error: 'User not found',
+        error: 'Major not found',
       });
     }
-
-    return res.status(200).json({
-      message: 'User Found',
-      data: isUserFound,
-    });
+    await MajorModel.findByIdAndUpdate(req.query.id, req.body);
+    return res.status(204).json({});
   } catch (error) {
     return res.status(500).json({
       message: 'Internal Server Error',

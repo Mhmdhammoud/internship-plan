@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const majorModel = require('./major.schema');
 const courseSchema = new mongoose.Schema(
   {
     title: {
@@ -23,7 +23,8 @@ const courseSchema = new mongoose.Schema(
       required: [true, 'Capacity is required'],
     },
     major: {
-      type: String,
+      type: mongoose.ObjectId,
+      ref: majorModel,
       required: [true, 'Major is required'],
     },
   },

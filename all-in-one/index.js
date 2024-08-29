@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 const connectDb = require('./utils/connectDb');
 const courseRoutes = require('./routes/course.routes');
 const usersRoutes = require('./routes/user.routes');
+const majorRoutes = require('./routes/major.routes');
 dotenv.config();
 
 const app = express();
@@ -13,6 +14,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use('/courses', courseRoutes);
 app.use('/users', usersRoutes);
+app.use('/majors', majorRoutes);
 
 connectDb().then(() => {
   console.log('DB connected');
