@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
       filter.time = filteredTime;
     }
 
-    const courses = await CourseModel.find(filter);
+    const courses = await CourseModel.find(filter).populate('major');
 
     return res.status(200).json({
       message: 'All courses',

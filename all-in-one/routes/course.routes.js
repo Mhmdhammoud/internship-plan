@@ -5,6 +5,7 @@ const getAllCourses = require('../controllers/courses/getAllCourses');
 const getSingleCourse = require('../controllers/courses/getCourse');
 const updateCourse = require('../controllers/courses/updateCourse');
 const deleteCourse = require('../controllers/courses/deleteCourse');
+const authenticate = require('../middleware/authenticate');
 /*
  * CRUD operations
  * Create a course
