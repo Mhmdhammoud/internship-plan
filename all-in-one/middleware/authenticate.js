@@ -15,6 +15,11 @@ module.exports = async (req, res, next) => {
     );
     // alg: SHA256
     const decodedToken = jwt.verify(encodedToken, process.env.SECRET);
+    if (!decodedToken) {
+      return res.status(403).json({
+        message: 'Unauthenticated',
+      });
+    }
     req.payload = decodedToken;
     return next();
   } catch (error) {
