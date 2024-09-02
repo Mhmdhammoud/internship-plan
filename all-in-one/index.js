@@ -6,15 +6,16 @@ const connectDb = require('./utils/connectDb');
 const courseRoutes = require('./routes/course.routes');
 const usersRoutes = require('./routes/user.routes');
 const majorRoutes = require('./routes/major.routes');
+const authenticate = require('./middleware/authenticate');
 dotenv.config();
 
 const app = express();
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
-app.use('/courses', courseRoutes);
+app.use('/courses', authenticate, courseRoutes);
 app.use('/users', usersRoutes);
-app.use('/majors', majorRoutes);
+app.use('/majors', authenticate, majorRoutes);
 
 connectDb().then(() => {
   console.log('DB connected');
