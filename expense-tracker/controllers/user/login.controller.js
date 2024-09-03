@@ -1,6 +1,6 @@
 const UserModel = require('../../schemas/user.schema')
 const bcrypt = require('bcrypt')
-const jwt = require('jsonwebtoken')
+const jwt = require('../../utils/jwt')
 module.exports = async (req, res) => {
   try {
     if (!req.body.email || req.body.email === '') {
@@ -33,9 +33,7 @@ module.exports = async (req, res) => {
       email: doesUserExist.email,
       name: doesUserExist.name
     }
-    const token = await jwt.sign(payload, process.env.JWT_SECRET, {
-      expiresIn: '1h'
-    })
+    const token = await jwt.sign(payload)
     return res.status(200).json({
       message: 'Logged in successfully',
       token: token

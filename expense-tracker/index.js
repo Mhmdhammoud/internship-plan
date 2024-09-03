@@ -1,16 +1,24 @@
 const express = require('express')
 const morgan = require('morgan')
-const bodyParser = require('body-parser')
 const dotenv = require('dotenv')
 const connectDb = require('./lib/mongoose')
 const expenseRouter = require('./routes/expense.routes')
 const userRouter = require('./routes/user.routes')
+const cors = require('cors')
 dotenv.config()
 
 const app = express()
 
+//Cross-Origin Resource Sharing (CORS) is a security feature that restricts cross-origin HTTP requests that are initiated from scripts running in the browser.
+const options = {
+  origin: ['http://localhost:3000'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowHeaders: ['Content-Type', 'Authorization']
+}
+
+app.use(cors(options))
 app.use(morgan('dev'))
-app.use(bodyParser.json())
+app.use(express.json())
 app.use('/user', userRouter)
 app.use('/expense', expenseRouter)
 

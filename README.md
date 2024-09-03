@@ -125,10 +125,32 @@
 
 ## Authentication
 
-- [ ] What is Authentication & Why is it important
-- [ ] What is JWT
-- [ ] How to implement Authentication using JWT
-- [ ] Use Express Middlewares to authenticate routes
+- [x] What is Authentication & Why is it important
+- [x] What is JWT
+- [x] How to implement Authentication using JWT
+- [x] Use Express Middlewares to authenticate routes
+
+## Frontend
+
+- [ ] HTML
+- [ ] CSS
+- [ ] Javascript
+- [ ] Axios
+- [ ] Tailwindcss
+- [ ] React
+- [ ] Context API
+- [ ] NextJs
+
+## Typescript
+
+- [ ] What is Typescript
+- [ ] Why Typescript
+- [ ] How to install Typescript
+- [ ] Typescript Base Types
+- [ ] Typescript Interfaces
+- [ ] Typescript Classes
+- [ ] Typescript Generics
+- [ ] tsconfig.json
 
 ## DNS Records
 

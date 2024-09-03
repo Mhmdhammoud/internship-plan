@@ -1,4 +1,4 @@
-const jwt = require('jsonwebtoken')
+const jwt = require('../utils/jwt')
 module.exports = async (req, res, next) => {
   try {
     const authorization = req.headers.authorization
@@ -19,10 +19,7 @@ module.exports = async (req, res, next) => {
         message: 'Unauthorized'
       })
     }
-    const decodedPayload = await jwt.verify(
-      encodedToken,
-      process.env.JWT_SECRET
-    )
+    const decodedPayload = await jwt.verify(encodedToken)
     if (!decodedPayload) {
       return res.status(403).json({
         message: 'Unauthorized'
