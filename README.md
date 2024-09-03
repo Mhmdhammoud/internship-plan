@@ -132,8 +132,8 @@
 
 ## Frontend
 
-- [ ] HTML
-- [ ] CSS
+- [x] HTML
+- [x] CSS
 - [ ] Javascript
 - [ ] Axios
 - [ ] Tailwindcss
