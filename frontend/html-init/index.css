@@ -22,17 +22,49 @@ h6 {
   height: 100vh;
 }
 .container-mini {
-  background-color: red;
   border: 1px solid green;
   padding: 20px;
   margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: colorChange 12s infinite ease-in-out;
 }
-
+@keyframes colorChange {
+  0% {
+    background-color: green;
+    transform: translate(0, 0);
+  }
+  50% {
+    background-color: red;
+    transform: translate(50px, 50px);
+  }
+  75% {
+    background-color: yellow;
+    transform: translate(0, 0);
+  }
+  100% {
+    background-color: blue;
+    transform: translate(-50px, -50px);
+  }
+}
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
+}
+
+.container-mini h1:first-child {
+  color: red;
+}
+
+.container-mini h1:nth-child(even) {
+  color: green;
+}
+
+.container-flow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
