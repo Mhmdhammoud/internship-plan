@@ -28,7 +28,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: colorChange 12s infinite ease-in-out;
+  /* animation: colorChange 12s infinite ease-in-out; */
 }
 @keyframes colorChange {
   0% {
