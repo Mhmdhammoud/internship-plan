@@ -1,6 +1,7 @@
-import { Request, Response } from 'express'
+import { Response } from 'express'
+import { ICreateProduct, OurRequest } from '../../types'
 
-export default async (req: Request, res: Response) => {
+export default async (req: OurRequest<ICreateProduct>, res: Response) => {
     try {
         return res.status(200).json({
             message: 'Success'

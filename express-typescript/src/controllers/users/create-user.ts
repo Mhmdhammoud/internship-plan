@@ -1,10 +1,14 @@
-import { Request, Response } from 'express'
+import { Response } from 'express'
 import { UserModel } from '../../schemas'
-export default async (req: Request, res: Response) => {
+import { OurRequest } from '../../types/request'
+import { ICreateUser } from '../../types/user'
+
+export default async (req: OurRequest<ICreateUser>, res: Response) => {
     try {
-        UserModel.create([{}, {}, {}])
+        const createdUser = await UserModel.create(req.body)
         return res.status(200).json({
-            message: 'Success'
+            message: 'Success',
+            data: createdUser
         })
     } catch (err) {
         const error = err as Error
